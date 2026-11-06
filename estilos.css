@@ -1,0 +1,148 @@
+/* Universal Styles */
+html {
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fce4ec;
+  text-align: left;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+  padding: 20px;
+  color: #e91e63;
+  font-size: 28px;
+  text-align: left;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+  padding: 40px 20px 0 20px;
+  color: #d81b60;
+  font-size: 24px;
+  text-align: left;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-weight: bold;
+  color: #f06292;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  max-width: 900px;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Classe .destaque: fundo contrastante + margem personalizada */
+.destaque {
+  background-color: #e91e63;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px 20px;
+  margin: 25px 10px;
+  border-radius: 10px;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ffffff;
+  font-size: 14px;
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header a {
+  color: #4A4A4A;
+}
+
+a.home {
+  color: #D81B60;
+}
+
+/* Banner Section */
+.banner {
+  margin-top: 74px;
+  padding: 40px 0 100px 0;
+  background-color: #f06292;
+}
+
+.banner p {
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+/* Editorial Sections */
+.editorial {
+  padding-bottom: 40px;
+  color: #717171;
+}
+
+/* Font Card Sections */
+.font-card {
+  padding: 10px 0 40px 0;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.font-card .creator {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.sample {
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+.sample .text {
+  color: #D81B60;
+  font-size: 100px;
+}
+
+.garamond {
+  font-family: Garamond;
+}
+
+.helvetica {
+  font-family: Helvetica;
+}
+
+.space {
+
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* 1.A regra CSS mais difícil de aplicar foi o display: flex, porque tive alguma dificuldade para colocar corretamente os elementos.
+2.O meu erro mais comum foi esquecer-me de fechar algumas tags HTML, como </div> ou </p>. Quando testava a página no browser, alguns elementos apareciam desorganizados.
+3.O href serve para a hiperligação, permite enviar-nos para outra página ou site.
+*/
